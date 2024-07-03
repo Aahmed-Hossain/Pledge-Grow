@@ -65,11 +65,13 @@ import About from '@/components/HomeMain/About';
 import Marq from '@/components/HomeMain/Marq';
 import Clients from '@/components/HomeMain/Clients';
 import Services from '@/components/HomeMain/Services';
-import Works from '@/components/HomeMain/Works';
-import ServicesTabs from '@/components/HomeMain/ServicesTabs';
 import Testimonials from '@/components/HomeMain/Testimonials';
 import Blog from '@/components/HomeMain/Blog';
 import Footer from '@/components/HomeMain/Footer';
+import Price from '@/components/HomeMain/Price';
+import ServicesTab from '@/components/HomeMain/ServicesTab';
+import Approach from '@/components/HomeMain/Approach';
+import CallToAction from '@/components/DigitalAgency/CallToAction';
 
 function HomeMain() {
   useEffect(() => {
@@ -155,9 +157,11 @@ function HomeMain() {
             <Marq />
             <Clients />
             <Services />
-            <Works />
-            <ServicesTabs />
+            <Price/>
+            <ServicesTab/>
             <Testimonials />
+            <Approach/>
+            <CallToAction/>
             <Blog />
           </main>
           <Footer />
