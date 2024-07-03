@@ -1,0 +1,7 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/dark/home-digital-agency": "pages/dark/home-digital-agency.js",
+  "/dark/home-main": "pages/dark/home-main.js"
+}
