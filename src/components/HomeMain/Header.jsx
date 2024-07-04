@@ -1,21 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 //= Components
-import ModalVideo from '@/components/Common/ModalVideo';
+// import ModalVideo from '@/components/Common/ModalVideo';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+import BannerModal from '../modal/BannerModal';
 
 function Header({ lightMode }) {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  // const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  function openVideo(event) {
-    event.preventDefault();
-    setIsVideoOpen(true);
+  const openModal = () =>{
+      setShowModal(true)
+      console.log('clicked')
   }
+  const closeModal = () => {
+      setShowModal(false);
+  }
+
+  // useEffect(() => {
+  //   loadBackgroudImages();
+  // }, []);
+
+  // function openVideo(event) {
+  //   event.preventDefault();
+  //   setIsVideoOpen(true);
+  // }
 
   return (
     <header className="crev-header">
@@ -31,7 +41,7 @@ function Header({ lightMode }) {
                   </div>
 
                   <div className="crv-butn-vid mt-30">
-                    <a className="vid" onClick={openVideo}>
+                    <a className="vid" onClick={openModal}>
                       <span className="text">Besoin d'aide?</span>
                       <span className="icon main-colorbg4"> →
                         {/* <svg className="default" width="13" height="20" viewBox="0 0 13 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +50,9 @@ function Header({ lightMode }) {
                       </span>
                     </a>
                   </div>
-
+                  {
+    showModal && (<BannerModal closeModal={closeModal}/>)
+}
 
 
                   {/* <div className="crv-butn-vid mt-30">
@@ -90,7 +102,7 @@ function Header({ lightMode }) {
         <img src="/dark/assets/imgs/background/14.jpg" alt="" />
       </div>
       <div className="bg-pattern bg-img" data-background={`/${lightMode ? 'light' : 'dark'}/assets/imgs/patterns/graph.png`}></div>
-      <ModalVideo videoId="AzwC6umvd1s" channel="youtube" isOpen={isVideoOpen} onClose={() => setIsVideoOpen(false)} autoplay />
+      {/* <ModalVideo videoId="AzwC6umvd1s" channel="youtube" isOpen={isVideoOpen} onClose={() => setIsVideoOpen(false)} autoplay /> */}
     </header>
   )
 }

@@ -104,3 +104,66 @@ body {
 .light.shop-cart .counter input {
   color: #000;
 }
+
+
+/* modal css styles */
+
+
+.modal_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+
+/* styles.css */
+.modal_content {
+  background-color: white; 
+  border-radius: 0.375rem; 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05); /* shadow-lg */
+  padding-left: 1.5rem; 
+  padding-right: 1.5rem;
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
+  width: 90%; /* w-[99%] */
+  max-height: 100%; 
+  color: black;
+  overflow-y: auto; /* overflow-y-auto */
+}
+
+@media (min-width: 768px) { /* md: (min-width: 768px) */
+  .modal_content {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      width: 50%; /* md:w-[90%] */
+  }
+}
+
+.btn_close_next{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+/* styles.css */
+.btn {
+  padding: 7px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  border: 1px solid rgba(0,0,0,.5);
+  display: inline-block;
+  color: red;
+  margin-right: 0.75rem; 
+}

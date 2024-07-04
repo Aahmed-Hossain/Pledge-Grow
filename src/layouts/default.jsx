@@ -14,7 +14,7 @@ const DefaultLayout = ({ children, lightMode }) => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         {
           lightMode ?
             <>
@@ -24,7 +24,7 @@ const DefaultLayout = ({ children, lightMode }) => {
             :
             <link rel="stylesheet" href="/dark/assets/css/base.css" />
         }
-      </Head>
+      </Head> */}
 
       <Cursor />
       <ProgressScroll />

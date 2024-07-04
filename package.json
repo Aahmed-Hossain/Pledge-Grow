@@ -18,5 +18,8 @@
     "react-dom": "18.2.0",
     "react-scroll-parallax": "^3.4.2",
     "swiper": "^8.4.6"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6"
   }
 }

@@ -16,8 +16,8 @@
 
 // function LandingPreview() {
 //   useEffect(() => {
-//     document.body.classList.add('sub-bg');
-//     return () => document.body.classList.remove('sub-bg');
+//     document?.body.classList.add('sub-bg');
+//     return () => document?.body.classList.remove('sub-bg');
 //   }, []);
 
 //   return (
@@ -75,7 +75,7 @@ import CallToAction from '@/components/DigitalAgency/CallToAction';
 
 function HomeMain() {
   useEffect(() => {
-    document.body.classList.add('home-main-crev', 'main-bg');
+    document?.body.classList.add('home-main-crev', 'main-bg');
 
     // Smooth Scroll of Page
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -95,7 +95,7 @@ function HomeMain() {
           trigger: ".thecontainer",
           pin: true,
           scrub: 1,
-          end: () => "+=" + document.querySelector(".thecontainer")?.offsetWidth
+          end: () => "+=" + document?.querySelector(".thecontainer")?.offsetWidth
         }
       });
     }
@@ -117,15 +117,15 @@ function HomeMain() {
 
     return () => {
       window.removeEventListener('resize', handleResize);
-      document.body.classList.remove('home-main-crev', 'main-bg');
+      document?.body.classList.remove('home-main-crev', 'main-bg');
     }
   }, []);
 
   function handleResize() {
-    if (window.innerWidth < 991 && document.querySelector('.thecontainer').style.maxHeight) {
+    if (window.innerWidth < 991 && document?.querySelector('.thecontainer').style.maxHeight) {
       location.reload();
     }
-    if (window.innerWidth > 991 && !document.querySelector('.thecontainer').style.maxHeight) {
+    if (window.innerWidth > 991 && !document?.querySelector('.thecontainer').style.maxHeight) {
       gsap.registerPlugin(ScrollTrigger);
       let sections = gsap.utils.toArray(".panel");
       gsap.to(sections, {
@@ -135,7 +135,7 @@ function HomeMain() {
           trigger: ".thecontainer",
           pin: true,
           scrub: 1,
-          end: () => "+=" + document.querySelector(".thecontainer").offsetWidth
+          end: () => "+=" + document?.querySelector(".thecontainer").offsetWidth
         }
       });
     }

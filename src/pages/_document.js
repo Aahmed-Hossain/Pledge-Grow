@@ -23,6 +23,9 @@ export default function Document() {
         <link rel="stylesheet" href="/dark/assets/css/plugins.css" />
         {/* ------ Core Style Css ------ */}
         <link rel="stylesheet" href="/dark/assets/css/style.css" />
+        
+        {/* light mode style  */}
+        <link rel="stylesheet" href="/dark/assets/css/base.css" />
       </Head>
       <body>
         <Main />
