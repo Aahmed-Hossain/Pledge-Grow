@@ -15,8 +15,10 @@ function CallToAction({ lightMode }) {
           <div className="col-lg-10">
             <div className="sec-lg-head text-center">
               <h2 className="fz-70 fw-700">
-                <span>Have a project in mind?</span> <br />
-                <span className="underline"><Link href="/dark/page-contact" className="main-color2">Let’s get to work.</Link></span>
+                <span>
+                Avez-vous un projet en tête?</span> <br />
+                <span className="underline"><Link href="/dark/page-contact" className="main-color2">
+                Mettons-nous au travail.</Link></span>
               </h2>
             </div>
           </div>

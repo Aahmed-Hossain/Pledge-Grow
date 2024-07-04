@@ -156,7 +156,7 @@ function HomeMain() {
             <About />
             <Marq />
             <Clients />
-            <Services />
+            {/* <Services /> */}
             <Price/>
             <ServicesTab/>
             <Testimonials />

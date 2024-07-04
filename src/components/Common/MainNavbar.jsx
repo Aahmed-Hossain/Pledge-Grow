@@ -173,7 +173,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 </li> */}
                 <li><Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/portfolio-metro`}>Site Web</Link></li>
                 <li><Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/portfolio-modern`}>Référencemen</Link></li>
-                <li><Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/project-details1`}>Project Details 1</Link></li>
+                <li><Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/project-details1`}>Application</Link></li>
                 <li><Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/project-details2`}>Automatisation</Link></li>
               </ul>
             </li>

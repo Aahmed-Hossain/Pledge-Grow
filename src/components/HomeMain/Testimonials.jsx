@@ -159,20 +159,35 @@ function Testimonials({ mainColor }) {
           <div className="col-lg-5 valign">
             <div className="cont">
               <div>
-                <h6 className="sub-title mb-15">Since From 2008</h6>
-                <h3>Keep pushing forward. We've got your back.</h3>
+                {/* <h6 className="sub-title mb-15">Since From 2008</h6> */}
+                <h3>
+                Continuez à avancer. Nous vous soutenons.</h3>
                 <div className="text mt-10 pb-30 bord-thin-bottom">
-                  <p>Things go wrong have questions. We’ve understand. So we have people</p>
+                  <p>Les choses tournent mal, posez des questions. Nous avons compris. Nous avons donc des gens.</p>
                 </div>
                 <div className="stauts d-flex mt-20">
                   <div className="item d-flex align-items-center mt-30">
-                    <h2 className="mr-20">12k</h2>
-                    <p className="fz-14">Happy Users <br /> Around World</p>
+                    <h2 className="mr-5">20+</h2>
+                    <p className="fz-14">Clients
+                    {/* <br /> Around World */}
+                    
+                    </p>
                   </div>
+                  <div className="item d-flex align-items-center ml-30 mr-30 mt-30">
+                    <h2 className="mr-5">29+</h2>
+                    <p className="fz-14">Projets 
+                    <br /> accomplis</p>
+                  </div>
+
+
                   <div className="item d-flex align-items-center ml-auto mt-30">
-                    <h2 className="mr-20">150k</h2>
-                    <p className="fz-14">Projects <br /> Already Done</p>
+                    <h2 className="mr-5">8+</h2>
+                    <p className="fz-14">Membres 
+                    {/* <br /> accomplis */}
+                    </p>
                   </div>
+
+                  
                 </div>
               </div>
             </div>

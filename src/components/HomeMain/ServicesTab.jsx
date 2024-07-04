@@ -24,7 +24,7 @@ function ServicesTab({ lightMode }) {
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/0.png`} alt="" />
                     </div>
                     <div className="text">
-                      <p>We are a creative studio specializing in design, development and strategy many different skills and disciplines in the production of all web.</p>
+                      <p>Nous sommes un studio de création spécialisé dans la conception, le développement et la stratégie de nombreuses compétences et disciplines différentes dans la production de tout web.</p>
                     </div>
                     <Link href="/dark/page-services" className="mt-30">
                       <span className="mr-15">Read More</span>
@@ -95,14 +95,15 @@ function ServicesTab({ lightMode }) {
           <div className="col-lg-5 offset-lg-1 valign order1">
             <div className="serv-tab-link tab-links full-width md-mb50">
               <div className="sec-lg-head mb-80">
-                <h6 className="dot-titl-non mb-15">Services</h6>
-                <p>We help you to go online and increase your conversion rate Better design for your digital products. </p>
+                <h6 className="dot-titl-non mb-15">VOS BESOINS</h6>
+                <p>
+                Nous vous aidons à vous connecter et à augmenter votre taux de conversion. Une meilleure conception de vos produits numériques.</p>
               </div>
               <ul className="rest">
-                <li className="item-link current mb-15" data-tab="tabs-1" onClick={openTab}><span>01</span> UI/UX Design</li>
-                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span> Branding</li>
-                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span> Development</li>
-                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span> Marketing</li>
+                <li className="item-link current mb-15" data-tab="tabs-1" onClick={openTab}><span>01</span> Site Web</li>
+                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span>Référencement </li>
+                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span> Application</li>
+                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span> Automatisation</li>
               </ul>
             </div>
           </div>
