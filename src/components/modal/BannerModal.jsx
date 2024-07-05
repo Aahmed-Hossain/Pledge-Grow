@@ -256,11 +256,27 @@ const BannerModal = ({ closeModal }) => {
 
         <form onSubmit={handleSubmit(onSubmit)}>
           {activeContainer === 1 && (
-            <div style={{ display: "flex", gap: "8px", marginTop: "13px", marginBottom: "20px" }}>
+            <div style={{ display: "flex", gap: "20px", marginTop: "13px", marginBottom: "40px" }}>
               <Box sx={{ width: "100%" }}>
                 <TextField
                   size="small"
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    "& .MuiOutlinedInput-root": {
+                      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "black", 
+                      },
+                      "& .MuiInputBase-input": {
+                        color: "black", 
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", 
+                      "&.Mui-focused": {
+                        color: "black",
+                      },
+                    },
+                  }}
                   {...register("name", { required: "Name is required" })}
                   id="outlined-name-input"
                   label="Name"
@@ -272,7 +288,23 @@ const BannerModal = ({ closeModal }) => {
               <Box sx={{ width: "100%" }}>
                 <TextField
                   size="small"
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    "& .MuiOutlinedInput-root": {
+                      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "black", 
+                      },
+                      "& .MuiInputBase-input": {
+                        color: "black", 
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", 
+                      "&.Mui-focused": {
+                        color: "black",
+                      },
+                    },
+                  }}
                   {...register("email", { required: "Email is required" })}
                   id="outlined-email-input"
                   label="Email"
@@ -288,7 +320,23 @@ const BannerModal = ({ closeModal }) => {
               <Box sx={{ width: "100%" }}>
                 <TextField
                   size="small"
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    "& .MuiOutlinedInput-root": {
+                      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "black", 
+                      },
+                      "& .MuiInputBase-input": {
+                        color: "black", 
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", 
+                      "&.Mui-focused": {
+                        color: "black",
+                      },
+                    },
+                  }}
                   {...register("address", { required: "Address is required" })}
                   id="outlined-address-input"
                   label="Address"
@@ -300,7 +348,23 @@ const BannerModal = ({ closeModal }) => {
               <Box sx={{ width: "100%" }}>
                 <TextField
                   size="small"
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    "& .MuiOutlinedInput-root": {
+                      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "black", 
+                      },
+                      "& .MuiInputBase-input": {
+                        color: "black", 
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", 
+                      "&.Mui-focused": {
+                        color: "black",
+                      },
+                    },
+                  }}
                   {...register("phone", { required: "Phone Number is required" })}
                   id="outlined-phone-input"
                   label="Phone"
@@ -314,21 +378,68 @@ const BannerModal = ({ closeModal }) => {
           {activeContainer === 3 && (
             <div style={{ display: "flex", gap: "8px", marginTop: "13px", marginBottom: "20px" }}>
               <Box sx={{ width: "100%" }}>
-                <TextField
-                  size="small"
-                  sx={{ width: "100%" }}
-                  {...register("quantity", { required: "Quantity is required" })}
-                  id="outlined-quantity-input"
-                  label="Quantity"
-                  type="text"
-                />
+
+
+
+
+
+
+
+
+<TextField
+  size="small"
+  sx={{
+    width: "100%",
+    "& .MuiOutlinedInput-root": {
+      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+        borderColor: "black", 
+      },
+      "& .MuiInputBase-input": {
+        color: "black", 
+      },
+    },
+    "& .MuiInputLabel-root": {
+      color: "black", 
+      "&.Mui-focused": {
+        color: "black", 
+      },
+    },
+  }}
+  {...register("quantity", { required: "Quantity is required" })}
+  id="outlined-quantity-input"
+  label="Quantity"
+  type="text"
+/>
+
+
+
+
+
+
+
                 {errors.quantity && <span style={{ color: "red" }}>{errors.quantity.message}</span>}
               </Box>
 
               <Box sx={{ width: "100%" }}>
                 <TextField
                   size="small"
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    "& .MuiOutlinedInput-root": {
+                      "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "black", 
+                      },
+                      "& .MuiInputBase-input": {
+                        color: "black", 
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", 
+                      "&.Mui-focused": {
+                        color: "black",
+                      },
+                    },
+                  }}
                   {...register("city", { required: "City is required" })}
                   id="outlined-city-input"
                   label="City"
@@ -342,24 +453,24 @@ const BannerModal = ({ closeModal }) => {
 
         <div className="btn_close_next">
           {activeContainer === 1 && (
-            <button type="button" style={{ color: "red" }} className="btn" onClick={closeModal}>
+            <button  style={{ color: "gray",marginRight: '10px' }} className="btn_modal" onClick={closeModal}>
               Cancel
             </button>
           )}
 
           {activeContainer !== 1 && (
-            <button style={{ color: "blue" }} onClick={() => setActiveContainer(activeContainer - 1)} className="btn">
+            <button onClick={() => setActiveContainer(activeContainer - 1)} style={{marginRight: '10px'}} className="btn_modal">
               Back
             </button>
           )}
 
           {activeContainer !== 3 && (
-            <button style={{ color: "green" }} onClick={handleNext} className="btn">
+            <button onClick={handleNext} className="btn_modal">
               Next
             </button>
           )}
           {activeContainer === 3 && (
-            <button onClick={handleSubmit(onSubmit)} style={{ color: "yellowgreen" }} className="btn">
+            <button onClick={handleSubmit(onSubmit)} className="btn_modal">
               Submit
             </button>
           )}

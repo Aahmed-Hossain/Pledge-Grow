@@ -100,10 +100,10 @@ function ServicesTab({ lightMode }) {
                 Nous vous aidons à vous connecter et à augmenter votre taux de conversion. Une meilleure conception de vos produits numériques.</p>
               </div>
               <ul className="rest">
-                <li className="item-link current mb-15" data-tab="tabs-1" onClick={openTab}><span>01</span> Site Web</li>
-                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span>Référencement </li>
-                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span> Application</li>
-                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span> Automatisation</li>
+                <li className="item-link current mb-15" data-tab="tabs-1" onClick={openTab}><span>01</span>Site Web</li>
+                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span>Référencement</li>
+                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span>Application</li>
+                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span>Automatisation</li>
               </ul>
             </div>
           </div>
