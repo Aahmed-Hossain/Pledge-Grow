@@ -12,7 +12,6 @@ function Header({ lightMode }) {
 
   const openModal = () =>{
       setShowModal(true)
-      console.log('clicked')
   }
   const closeModal = () => {
       setShowModal(false);

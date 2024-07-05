@@ -66,13 +66,13 @@ function About({ lightMode }) {
                 <span className="rotate-text">Libérez votre potentiel.</span>
               </h2>
               <div className="feat mt-80">
-                <div className="item-flex d-flex align-items-center mb-50 wow fadeInUp" data-wow-delay=".4s">
+                <div className="item-flex d-flex align-items-center mb-40 wow fadeInUp" data-wow-delay=".4s">
                   <div>
-                    <div className="icon-img-50">
+                    <div  className="icon-img-50">
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/0.png`} alt="" />
                     </div>
                   </div>
-                  <div className="cont ml-30">
+                  <div  className="cont ml-30 ">
                     <h6>Entrepeneur, Start-up et PME</h6>
                     {/* <p className="fz-15">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p> */}

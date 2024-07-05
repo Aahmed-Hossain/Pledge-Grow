@@ -107,9 +107,9 @@ function Clients({ lightMode }) {
         <div className="row justify-content-center">
           <div className="col-lg-9">
             <div className="text-center mb-80">
-              <h6 className="fz-14 fw-400">
+              {/* <h6 className="fz-14 fw-400">
                 More than <span className="fw-600">200+ companies</span> trusted us worldwide
-              </h6>
+              </h6> */}
             </div>
           </div>
         </div>
@@ -122,8 +122,8 @@ function Clients({ lightMode }) {
                   data.map((item) => (
                     <SwiperSlide key={item}>
                       <div className="item">
-                        <div className="img icon-img-100">
-                          <img src={`${lightMode ? '/light' : '/dark'}/${item}`} alt="" />
+                        <div className="img icon-img-200">
+                          <img style={{ filter: `grayscale(${lightMode ? '0' : '0'})` }} src={`${lightMode ? '/light' : '/dark'}/${item}`} alt="" />
                         </div>
                       </div>
                     </SwiperSlide>
