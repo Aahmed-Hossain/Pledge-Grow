@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/dark/page-contact": "pages/dark/page-contact.js",
   "/dark/page-about": "pages/dark/page-about.js"
 }

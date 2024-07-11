@@ -24,7 +24,7 @@ function ServicesTab({ lightMode }) {
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/0.png`} alt="" />
                     </div>
                     <div className="text">
-                      <p>Nous sommes un studio de création spécialisé dans la conception, le développement et la stratégie de nombreuses compétences et disciplines différentes dans la production de tout web.</p>
+                      <p>Création de sites web modernes et optimisés, adaptés à vos 	besoins spécifiques et à votre image de marque.</p>
                     </div>
                     <Link href="/dark/page-services" className="mt-30">
                       <span className="mr-15">Read More</span>
@@ -43,7 +43,7 @@ function ServicesTab({ lightMode }) {
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/1.png`} alt="" />
                     </div>
                     <div className="text">
-                      <p>We are a creative studio specializing in design, development and strategy many different skills and disciplines in the production of all web.</p>
+                      <p>Développement de solutions SaaS performantes et sécurisées, accessibles en ligne pour une gestion simplifiée.</p>
                     </div>
                     <Link href="/dark/page-services" className="mt-30">
                       <span className="mr-15">Read More</span>
@@ -62,7 +62,7 @@ function ServicesTab({ lightMode }) {
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/2.png`} alt="" />
                     </div>
                     <div className="text">
-                      <p>We are a creative studio specializing in design, development and strategy many different skills and disciplines in the production of all web.</p>
+                      <p>Conception d'applications mobiles intuitives et engageantes pour iOS et Android, répondant aux besoins de vos utilisateurs.</p>
                     </div>
                     <Link href="/dark/page-services" className="mt-30">
                       <span className="mr-15">Read More</span>
@@ -81,7 +81,7 @@ function ServicesTab({ lightMode }) {
                       <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/serv-icons/0.png`} alt="" />
                     </div>
                     <div className="text">
-                      <p>We are a creative studio specializing in design, development and strategy many different skills and disciplines in the production of all web.</p>
+                      <p>Développement de logiciels sur mesure pour améliorer vos processus métiers et augmenter votre productivité.</p>
                     </div>
                     <Link href="/dark/page-services" className="mt-30">
                       <span className="mr-15">Read More</span>
@@ -101,9 +101,9 @@ function ServicesTab({ lightMode }) {
               </div>
               <ul className="rest">
                 <li className="item-link current mb-15" data-tab="tabs-1" onClick={openTab}><span>01</span>Site Web</li>
-                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span>Référencement</li>
-                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span>Application</li>
-                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span>Automatisation</li>
+                <li className="item-link mb-15" data-tab="tabs-2" onClick={openTab}><span>02</span>SAAS </li>
+                <li className="item-link mb-15" data-tab="tabs-3" onClick={openTab}><span>03</span>Application Mobile </li>
+                <li className="item-link" data-tab="tabs-4" onClick={openTab}><span>04</span>Logiciels </li>
               </ul>
             </div>
           </div>

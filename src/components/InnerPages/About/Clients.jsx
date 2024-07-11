@@ -12,7 +12,7 @@ function Clients({ lightMode }) {
         <div className="row justify-content-center mb-80">
           <div className="col-lg-6 text-center">
             <div className="text">
-              <h3>We create experiences and turn ideas into reality.</h3>
+              <h3>Nos partenaires.</h3>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ function Clients({ lightMode }) {
                         <img src={`/${lightMode ? 'light' : 'dark'}${item}`} alt="" />
                       </div>
                       <Split tag="a" href={appData.author_link} className="link">
-                        www.GeekFolio.com
+                      www.pledgeandgrow.com
                       </Split>
                     </div>
                   </div>

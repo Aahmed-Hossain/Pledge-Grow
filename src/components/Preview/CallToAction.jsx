@@ -12,7 +12,7 @@ function CallToAction() {
   return (
     <section className="call-action-img sub-bg">
       <div className="container">
-        <div className="sec-bg-img bg-img parallaxie" data-background="/dark/assets/imgs/background/2.jpg"></div>
+        <div className="sec-bg-img bg-img parallaxie" data-background=""></div>
         <div className="sec-lg-head section-padding">
           <div className="row ontop">
             <div className="col-11 d-flex align-items-center">

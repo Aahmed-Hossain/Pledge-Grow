@@ -36,14 +36,14 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
     document.querySelector(".navbar .navbar-collapse").classList.toggle("show");
   }
 
-  function toggleSearch() {
-    let form = document.querySelector(".navbar .search-form");
-    let closeBtn = document.querySelector(".search-form .close-search");
+  // function toggleSearch() {
+  //   let form = document.querySelector(".navbar .search-form");
+  //   let closeBtn = document.querySelector(".search-form .close-search");
 
-    form.classList.toggle("open");
-    if (form.classList.contains('open')) closeBtn.style.display = 'block';
-    else closeBtn.style.display = 'none';
-  }
+  //   form.classList.toggle("open");
+  //   if (form.classList.contains('open')) closeBtn.style.display = 'block';
+  //   else closeBtn.style.display = 'none';
+  // }
 
   return (
     <nav className={`navbar navbar-expand-lg ${curve ? 'nav-crev' : ''} ${noStatic ? '' : 'static'} ${mainBg ? 'main-bg' : ''} ${subBg ? 'sub-bg' : ''}`}>
@@ -62,9 +62,9 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
 
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav">
-            {/* <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
-              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                <span className="rolling-text">Accueil</span>
+            <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">
+                <span className="rolling-text">Prestation et Integration</span>
               </a>
               <div className="dropdown-menu mega-menu">
                 <div className="container">
@@ -72,56 +72,56 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                     <div className="col-lg-3">
                       <div className="clumn">
                         <div className="title">
-                          <h6 className="sub-title ls1">Home Dark</h6>
+                          <h6 className="sub-title ls1">Nos prestation</h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/dark/home-main">Main Home</Link>
-                          <Link className="dropdown-item" href="/dark/home-corporate">Corporate Business</Link>
-                          <Link className="dropdown-item" href="/dark/home-onepage">Home One page</Link>
-                          <Link className="dropdown-item" href="/dark/home-digital-agency">Digital Agency</Link>
-                          <Link className="dropdown-item" href="/dark/home-freelancer">Freelancer</Link>
-                          <Link className="dropdown-item" href="/dark/home-marketing-agency">Marketing Agency</Link>
+                          {/* <Link className="dropdown-item" href="#">Main Home</Link> */}
+                          <Link className="dropdown-item" href="/dark/home-corporate">Site Web </Link>
+                          <Link className="dropdown-item" href="/dark/home-onepage">SAAS </Link>
+                          <Link className="dropdown-item" href="/dark/home-digital-agency">Application Mobile </Link>
+                          <Link className="dropdown-item" href="/dark/home-freelancer">Logiciels </Link>
+                          {/* <Link className="dropdown-item" href="/dark/home-marketing-agency">Marketing Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-creative-agency">Creative Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-startup">Startup Bussines</Link>
-                          <Link className="dropdown-item" href="/dark/home-architecture">Architecture</Link>
+                          <Link className="dropdown-item" href="/dark/home-architecture">Architecture</Link> */}
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-3">
                       <div className="clumn">
                         <div className="title">
-                          <h6 className="sub-title ls1">Home Light</h6>
+                          <h6 className="sub-title ls1">Intégrations </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/light/home-main">Main Home</Link>
-                          <Link className="dropdown-item" href="/light/home-corporate">Corporate Business</Link>
-                          <Link className="dropdown-item" href="/light/home-onepage">Home One page</Link>
-                          <Link className="dropdown-item" href="/light/home-digital-agency">Digital Agency</Link>
+                          <Link className="dropdown-item" href="/light/home-main">E-commerce</Link>
+                          <Link className="dropdown-item" href="/light/home-corporate">IA / Machine Learning</Link>
+                          <Link className="dropdown-item" href="/light/home-onepage">Blockchain</Link>
+                          {/* <Link className="dropdown-item" href="/light/home-digital-agency">Digital Agency</Link>
                           <Link className="dropdown-item" href="/light/home-freelancer">Freelancer</Link>
                           <Link className="dropdown-item" href="/light/home-marketing-agency">Marketing Agency</Link>
                           <Link className="dropdown-item" href="/light/home-creative-agency">Creative Agency</Link>
                           <Link className="dropdown-item" href="/light/home-startup">Startup Bussines</Link>
-                          <Link className="dropdown-item" href="/light/home-architecture">Architecture</Link>
+                          <Link className="dropdown-item" href="/light/home-architecture">Architecture</Link> */}
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-3">
                       <div className="clumn">
                         <div className="title">
-                          <h6 className="sub-title ls1">Showcases</h6>
+                          <h6 className="sub-title ls1">Complémentaires </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/dark/showcase-parallax-slider">Parallax Slider</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-frame-slider">Frame Slider</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-circle-slider">Circle Slider</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-carousel">Showcase Carousel</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-interactive-center-horizontal">Interactive Links1</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / IX Design</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-frame-slider">Référencement</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-circle-slider">Cybersécurité</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-carousel">Maintenance</Link>
+                          {/* <Link className="dropdown-item" href="/dark/showcase-interactive-center-horizontal">Interactive Links1</Link>
                           <Link className="dropdown-item" href="/dark/showcase-interactive-center">Interactive Links2</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-parallax">Vertical Parallax</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-parallax">Vertical Parallax</Link> */}
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-3">
+                    {/* <div className="col-lg-3">
                       <div className="clumn">
                         <div className="title">
                           <h6 className="sub-title ls1">Showcases Light</h6>
@@ -136,11 +136,11 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           <Link className="dropdown-item" href="/light/showcase-parallax">Vertical Parallax</Link>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
-            </li> */}
+            </li>
             <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
               <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span className="rolling-text">P&G</span></a>
               <div className="dropdown-menu">
@@ -206,7 +206,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
           </ul>
         </div>
 
-        <div className="search-form">
+        {/* <div className="search-form">
           <div className="form-group">
             <input type="text" name="search" placeholder="Search" />
             <button><span className="pe-7s-search"></span></button>
@@ -215,7 +215,14 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
             <span className="pe-7s-search open-search"></span>
             <span className="pe-7s-close close-search"></span>
           </div>
-        </div>
+        </div> */}
+
+
+                      <button type="submit" className="butn butn-md butn-bord radius-30">
+                        <span className="text">
+                        CTA</span>
+                      </button>
+          
       </div>
     </nav>
   )

@@ -9,12 +9,19 @@ function Price() {
           <div className="col-lg-5 valign">
             <div className="cont full-width md-mb50">
               <div>
-                <h6 className="sub-title mb-15">Over 150.000+ Clients</h6>
-                <h3>Affordable pricing.<br /> Easy scaling.</h3>
+              <span className="sideup-text">
+                  <span className="up-text">Scalez votre entreprise technologique à un prix abordable, sous la supervision des référents de notre entreprise. Vous préférez faire les choses vous-même?</span>
+                </span>
+                {/* <h6 className="sub-title mb-15">Over 150.000+ Clients</h6> */}
+                {/* <h3>Affordable pricing.<br /> Easy scaling.</h3> */}
                 <div className="text mt-30 pt-30 bord-thin-top">
-                  <p>Things go wrong have questions. We’ve understand. So we have people</p>
+                <span className="sideup-text">
+
+
+                  <span className="up-text">Vous avez un souci d’effectif ? Faites appel à nos développeurs qualifiés et abordables pour vous soutenir dans vos projets technologiques.</span>
+                </span>
                 </div>
-                <ul className="rest list-arrow mt-30">
+                {/* <ul className="rest list-arrow mt-30">
                   <li>
                     <span className="icon">
                       <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
@@ -48,7 +55,7 @@ function Price() {
                     </span>
                     <h6 className="inline fz-18">Email & Live chat.</h6>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -56,10 +63,10 @@ function Price() {
             <div className="full-width">
               <div className="item sub-bg radius-10 d-flex mb-30">
                 <div className="type">
-                  <h5 className="fw-600">Advanced</h5>
-                  <h6 className="fz-14">14 days free</h6>
+                  <h5 className="fw-600">Développeur Full-stack (3-5 ans d'expérience) :  <span className='fz-18'>2200 EUR par mois </span></h5>
+                  {/* <h6 className="fz-14">14 days free</h6> */}
                 </div>
-                <div className="cont ml-30">
+                {/* <div className="cont ml-30">
                   <ul className="dot-list rest">
                     <li className="mb-10">Guarenteed quality control</li>
                     <li className="mb-10">Top quality service</li>
@@ -73,14 +80,17 @@ function Price() {
                       <span className="fz-13">Sign Up</span>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="item main-colorbg2 radius-10 text-dark d-flex">
+              <div style={{backgroundColor: '#16C227'}} className="item main-colorbg2 radius-10 text-dark d-flex">
                 <div className="type">
-                  <h5 className="fw-600">Enterprise</h5>
-                  <h6 className="fz-14">7 days free</h6>
+
+                <h5 style={{color: 'white'}} className="fw-600">Développeur Senior (5+ ans d'expérience): <span className='fz-18'>4700 EUR par mois</span></h5>
+
+                  {/* <h5 className="fw-600">Enterprise</h5>
+                  <h6 className="fz-14">7 days free</h6> */}
                 </div>
-                <div className="cont ml-30">
+                {/* <div className="cont ml-30">
                   <ul className="dot-list rest">
                     <li className="mb-10">Guarenteed quality control</li>
                     <li className="mb-10">Top quality service</li>
@@ -94,7 +104,7 @@ function Price() {
                       <span className="fz-13">Sign Up</span>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

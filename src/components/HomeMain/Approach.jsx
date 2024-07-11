@@ -28,6 +28,7 @@ const swiperOptions = {
 }
 
 function Approach() {
+  // const [isHovered, setIsHovered] = useState(false);
   const [loadSwiper, setLoadSwiper] = useState(false);
 
   useEffect(() => {
@@ -46,18 +47,38 @@ function Approach() {
             </div>
           </div>
         </div>
-        <div className="swiper4">
+        <div
+      
+        className="swiper4">
           {
             loadSwiper &&
-            <Swiper {...swiperOptions} id="content-carousel-container-unq-approch" className="swiper-container d-flex justify-content-center">
+            <Swiper {...swiperOptions} 
+            
+            id="content-carousel-container-unq-approch" className="swiper-container d-flex justify-content-center"
+            
+            >
               {
                 data.map((item) => (
                   <SwiperSlide key={item.id}>
-                    <div className="item text-center">
+                    <div 
+                     style={{
+                      height: '18rem',
+                  }}
+
+          //         style={{
+          //           height: '18rem',
+          //           color: isHovered ? 'red' : 'initial', 
+          //           transition: 'color 0.3s ease' 
+          //       }}
+          //       onMouseEnter={() => setIsHovered(true)}
+          // onMouseLeave={() => setIsHovered(false)}
+                     className="item text-center">
                       <h6>{item.title}</h6>
                       <h2 className="fz-60 stroke num-font mt-30">{item.number}</h2>
                       <p className="fz-14 mt-30">{item.text}</p>
-                      <Link href="/dark/page-about" className="mt-15">
+                      <Link 
+                      
+                      href="/dark/page-about" className="mt-15">
                         <span>
                           <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                             xmlns="http://www.w3.org/2000/svg">

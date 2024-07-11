@@ -8,10 +8,10 @@ function About({ lightMode }) {
         <div className="row mb-80">
           <div className="col-lg-5">
             <div className="sec-lg-head md-mb30">
-              <h6 style={{fontWeight:'700px'}} className="dot-titl-non mb-15 wow fadeIn">NOS AVANTAGES
+              <h6  className="dot-titl-non mb-15 wow fadeIn fz-18">NOS AVANTAGES
               </h6>
               <h2 className="d-rotate wow">
-                <span className="rotate-text">Notre équipe de professionnels du numérique dédiés.</span>
+                <span className="rotate-text">Une équipe d’experts dédiés aux technologies numériques.</span>
               </h2>
             </div>
           </div>
@@ -19,14 +19,14 @@ function About({ lightMode }) {
             <div className="text">
               <p className="d-slideup wow">
                 <span className="sideup-text">
-                  <span className="up-text">Bienvenue chez Pledge & Grow, votre partenaire en développement informatique CMS,  full-stack et développement spécifiques. </span>
+                  <span className="up-text">Pledge & Grow est une agence de digitalisation de projet informatique basée à Paris.</span>
                 </span>
                 <span className="sideup-text">
-                  <span className="up-text">Boostez vos projets numériques avec notre expertise et nos solutions sur mesure. À Paris, nous transformons vos idées en succès.  </span>
+                  <span className="up-text">Nous offrons la possibilité d’intégrer des innovantes telles que l'IA dans vos application web ou mobile, tout en offrant un accompagnement personnalisé.</span>
                 </span>
-                {/* <span className="sideup-text">
-                  <span className="up-text">when strategically paired with other channels.</span>
-                </span> */}
+                <span className="sideup-text">
+                  <span className="up-text">Rejoignez-nous pour transformer votre entreprise et réussir dans le monde numérique.</span>
+                </span>
               </p>
               <div className="vew-all mt-50 ml-30 wow fadeIn" data-wow-delay=".8s">
                 <Link href="/dark/blog-classic">Consultez toutes nos actualités
@@ -118,8 +118,6 @@ function About({ lightMode }) {
                     </p> */}
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
