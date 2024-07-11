@@ -23,15 +23,15 @@ function PageAbout() {
   }, []);
 
   const headerMetadata = {
-    subTitle: "WHO WE ARE ?",
-    title: "We're a digital agency based in Valencia.",
-    text: "About Us"
+    subTitle: "QUI SOMMES-NOUS ?",
+    title: "Nous sommes une agence de digitalisation de projets basée à Paris.",
+    text: "A PROPOS DE NOUS"
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - About</title>
+        <title>Pledge and Grow - About</title>
       </Head>
 
       <Loader />

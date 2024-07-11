@@ -44,29 +44,29 @@ function Intro() {
               <div className="accordion bord mt-40">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">The Power of Influencer Marketing</h6>
+                    <h6 className="fz-18">Sécurité et Fiabilité</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Nous utilisons des technologies de pointe et des infrastructures sécurisées pour protéger vos données sensibles et garantir la fiabilité de vos systèmes informatiques. Vous pouvez compter sur nous pour une sécurité maximale et une protection contre les cybermenaces.</p>
                   </div>
                 </div>
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Unique and Influential Design</h6>
+                    <h6 className="fz-18">Intégration et Compatibilité</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Notre expertise en intégration de systèmes complexes assure une parfaite compatibilité entre vos différents outils et plateformes. Nous veillons à ce que toutes vos solutions fonctionnent ensemble de manière harmonieuse, optimisant ainsi votre efficacité opérationnelle.</p>
                   </div>
                 </div>
                 <div className="item wow fadeInUp" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">We Build and Activate Brands</h6>
+                    <h6 className="fz-18">Agilité et Rapidité</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Grâce à notre approche de développement agile, nous livrons rapidement des solutions de haute qualité et nous adaptons facilement à vos besoins changeants. Notre réactivité vous offre un avantage concurrentiel en vous permettant de rester à jour avec les évolutions du marché.</p>
                   </div>
                 </div>
               </div>

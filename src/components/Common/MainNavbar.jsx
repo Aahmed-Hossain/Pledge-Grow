@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 
@@ -47,7 +48,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
   return (
     <nav className={`navbar navbar-expand-lg ${curve ? 'nav-crev' : ''} ${noStatic ? '' : 'static'} ${mainBg ? 'main-bg' : ''} ${subBg ? 'sub-bg' : ''}`}>
       <div className="container">
-        <a className="logo icon-img-100" href="#">
+        <a className="logo icon-img-100" href="/">
           {
             lightMode ?
               <img src="/dark/assets/imgs/logo-light.jpg" alt="logo" />

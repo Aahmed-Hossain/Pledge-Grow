@@ -2,31 +2,31 @@
   {
     "id": 1,
     "image": "/dark/assets/imgs/team/1.jpg",
-    "name": "adrian parody",
-    "position": "Co-Founder"
+    "name": "Mehdi BEREL ",
+    "position": "Fondateur & Président"
   },
   {
     "id": 2,
     "image": "/dark/assets/imgs/team/2.jpg",
-    "name": "adrian parody",
-    "position": "Co-Founder"
+    "name": "Shihab BEREL ",
+    "position": "CTO & CFO"
   },
   {
     "id": 3,
     "image": "/dark/assets/imgs/team/3.jpg",
-    "name": "adrian parody",
-    "position": "Co-Founder"
+    "name": "Noah PLA",
+    "position": "Vice-président et CMO"
   },
   {
     "id": 4,
     "image": "/dark/assets/imgs/team/4.jpg",
-    "name": "adrian parody",
-    "position": "Co-Founder"
+    "name": "Louis JUNQUA SALANNE",
+    "position": "COO"
   },
   {
     "id": 5,
-    "image": "/dark/assets/imgs/team/3.jpg",
-    "name": "adrian parody",
-    "position": "Co-Founder"
+    "image": "/dark/assets/imgs/team/2.jpg",
+    "name": "Maxime NEAU",
+    "position": "Ambassadeur P&G"
   }
 ]

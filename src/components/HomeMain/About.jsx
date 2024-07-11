@@ -8,7 +8,7 @@ function About({ lightMode }) {
         <div className="row mb-80">
           <div className="col-lg-5">
             <div className="sec-lg-head md-mb30">
-              <h6 className="dot-titl-non mb-15 wow fadeIn">NOS AVANTAGES
+              <h6 style={{fontWeight:'700px'}} className="dot-titl-non mb-15 wow fadeIn">NOS AVANTAGES
               </h6>
               <h2 className="d-rotate wow">
                 <span className="rotate-text">Notre équipe de professionnels du numérique dédiés.</span>

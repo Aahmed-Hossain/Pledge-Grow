@@ -19,12 +19,12 @@ function Story() {
           </div>
           <div className="col-lg-4">
             <div className="sec-head mt-80">
-              <h6 className="sub-title">Our Story.</h6>
+              <h6 className="sub-title">A PROPOS DE NOUS</h6>
             </div>
           </div>
           <div className="col-lg-8">
             <div className="cont mt-80">
-              <h4>GeekFolio are digital marketing experts and can partner with you to implement tactical campaigns which engage and connect audiences whilst driving ROI for your brand. We are SEO and SEM professionals and have implemented successful search campaigns for clients which drive super-charge improvements in organic rankings, increase visits and grow revenue. </h4>
+              <h4>Nous sommes une équipe d'entrepreneurs passionnés issus de différents parcours, unis par un objectif commun : démocratiser l'informatique à l'échelle nationale. Depuis plus de deux ans, nous nous consacrons à l'innovation en interne tout en accompagnant nos clients avec dévouement et expertise. Ensemble, nous repoussons les limites de la technologie pour créer un avenir où l'informatique est accessible à tous. </h4>
             </div>
           </div>
         </div>

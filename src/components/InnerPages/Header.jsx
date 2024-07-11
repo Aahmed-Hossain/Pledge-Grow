@@ -15,7 +15,7 @@ function Header({ data, subBg }) {
         <div className="row">
           <div className="col-lg-5 offset-lg-4">
             <div className="text mt-30">
-              <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+              <p>Notre équipe, issue des meilleures écoles d’ingénieurs, fusionne ses compétences variées en informatique et divers autres secteurs pour façonner des solutions sur mesure, répondant avec précision à vos défis et aspirations.</p>
             </div>
           </div>
         </div>

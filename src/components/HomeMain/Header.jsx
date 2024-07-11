@@ -42,7 +42,7 @@ function Header({ lightMode }) {
                   <div className="crv-butn-vid mt-30">
                     <a className="vid" onClick={openModal}>
                       <span className="text">Besoin d'aide?</span>
-                      <span className="icon main-colorbg4"> →
+                      <span style={{backgroundColor: '#16C227'}} className="icon main-colorbg4"> →
                         {/* <svg className="default" width="13" height="20" viewBox="0 0 13 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 20L13 10L0 0V20Z"></path>
                         </svg> */}

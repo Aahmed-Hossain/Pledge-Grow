@@ -13,7 +13,7 @@ function Header() {
           </div>
           <div className="col-lg-5 valign">
             <div className="text">
-              <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+              <p>N’hésitez pas à nous envoyer un message, à nous appeler ou à planifier une réunion. Embarquons ensemble pour un voyage de croissance et de transformation. Ensemble, nous pouvons débloquer des possibilités illimitées et créer un avenir plus brillant.</p>
             </div>
           </div>
         </div>
