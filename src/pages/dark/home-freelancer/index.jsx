@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Layout from '@/layouts/default';
 //= Components
 import Loader from '@/components/Common/Loader';
-import Navbar from '@/components/Freelancer/Navbar';
+import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/Freelancer/Header';
 import Marq from '@/components/Freelancer/Marq';
 import Services from '@/components/Freelancer/Services';
@@ -26,20 +26,19 @@ function HomeFreelancer() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Freelancer</title>
+        <title>Fledge & Grow - Application Mobile</title>
       </Head>
-
       <Loader />
-      <Navbar mainBg />
+      <Navbar mainBg noStatic />
       <Header />
       <main className="position-re">
-        <Marq />
+        {/* <Marq /> */}
         <Services />
-        <Intro />
-        <Portfolio />
-        <Skills />
-        <Testimonials />
-        <Blog />
+        {/* <Intro /> */}
+        {/* <Portfolio />
+        <Skills /> */}
+        {/* <Testimonials />
+        <Blog /> */}
         <Contact />
       </main>
       <Footer />

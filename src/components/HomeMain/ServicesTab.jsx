@@ -95,7 +95,7 @@ function ServicesTab({ lightMode }) {
           <div className="col-lg-5 offset-lg-1 valign order1">
             <div className="serv-tab-link tab-links full-width md-mb50">
               <div className="sec-lg-head mb-80">
-                <h6 className="dot-titl-non mb-15">VOS BESOINS</h6>
+                <h6 className="dot-titl-non mb-15 fz-18">VOS BESOINS</h6>
                 <p>
                 Nous vous aidons à vous connecter et à augmenter votre taux de conversion. Une meilleure conception de vos produits numériques.</p>
               </div>

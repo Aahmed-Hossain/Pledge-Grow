@@ -41,7 +41,7 @@ function Approach() {
         <div className="sec-lg-head mb-80">
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
-              <h6 className="dot-titl-non mb-15">MVP 360
+              <h6 className="dot-titl-non mb-15 fz-18">MVP 360
               </h6>
               <h3>VALEUR AU CŒUR DE NOTRE PROPOSITION.</h3>
             </div>

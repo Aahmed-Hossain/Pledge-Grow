@@ -17,7 +17,7 @@ function CallToAction({ lightMode }) {
               <h2 className="fz-70 fw-700">
                 <span>
                 Avez-vous un projet en tête?</span> <br />
-                <span className="underline"><Link href="/dark/page-contact" className="main-color2">
+                <span className="underline"><Link href="/dark/page-contact"className="main-color2">
                 Mettons-nous au travail.</Link></span>
               </h2>
             </div>

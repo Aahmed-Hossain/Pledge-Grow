@@ -15,8 +15,8 @@ function Header() {
           <div className="col-lg-7">
             <div className="caption">
               <h6 className="fw-400 mb-15">
-                Hello <span className="icon-img-30"><img src="/dark/assets/imgs/svg-assets/hi.png" alt="" /></span> , I'm Chadwick Boseman.</h6>
-              <h1 className="fz-60">A Visual Designer Specializing in UI & UX</h1>
+                Hello <span className="icon-img-30"><img src="/dark/assets/imgs/svg-assets/hi.png" alt="" /></span> ,We're Pledge & Grow.</h6>
+              <h1 className="fz-60">Specializing in Développement d'Applications Mobiles.</h1>
               <div className="row mt-50">
                 <div className="col-lg-3 cal-act order2">
                   <Link href="/dark/portfolio-classic-grid" className="butn-circle d-flex align-items-center text-center">

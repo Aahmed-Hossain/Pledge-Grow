@@ -78,8 +78,8 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           {/* <Link className="dropdown-item" href="#">Main Home</Link> */}
                           <Link className="dropdown-item" href="/dark/home-corporate">Site Web </Link>
                           <Link className="dropdown-item" href="/dark/home-onepage">SAAS </Link>
-                          <Link className="dropdown-item" href="/dark/home-digital-agency">Application Mobile </Link>
-                          <Link className="dropdown-item" href="/dark/home-freelancer">Logiciels </Link>
+                          <Link className="dropdown-item" href="/dark/home-digital-agency">Logiciels</Link>
+                          <Link className="dropdown-item" href="/dark/home-freelancer">Application Mobile</Link>
                           {/* <Link className="dropdown-item" href="/dark/home-marketing-agency">Marketing Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-creative-agency">Creative Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-startup">Startup Bussines</Link>
