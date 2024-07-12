@@ -150,6 +150,7 @@ function HomeMain() {
       <Loader />
       <div id="smooth-wrapper">
         <Navbar mainBg noStatic />
+        
         <div id="smooth-content">
           <main className="main-bg">
             <Header />

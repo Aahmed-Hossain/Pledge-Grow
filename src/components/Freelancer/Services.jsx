@@ -35,12 +35,12 @@ function Services({ lightMode }) {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div style={{display: 'flex', flexDirection: 'row-reverse' , alignItems: 'center', alignContent: 'center' ,justifyContent: 'center'}} className="row">
           {
             data.map((item, index) => (
-              <div className="col-lg-6" key={item.id}>
-                <div className={`serv-item d-flex ${index !== data.length - 1 ? 'mb-30' : ''} radius-10`}>
-                  <div className="icon-img-80">
+              <div  className="col-lg-6" key={item.id}>
+                <div  style={{height: '25.8rem'}} className={`serv-item d-flex ${index !== data.length - 1 ? 'mb-30' : ''} radius-10`}>
+                  <div className="">
                     <img src={`/${lightMode ? 'light' : 'dark'}/${item.image}`} alt="" />
                   </div>
                   <div className="ml-60">

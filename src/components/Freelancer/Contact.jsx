@@ -7,24 +7,22 @@ function Contact() {
         <div className="row">
           <div className="col-lg-5">
             <div className="sec-lg-head md-mb80">
-              <h6 className="dot-titl-non mb-10">Get In Touch</h6>
-              <h2 className="fz-50">Let's make your brand brilliant!</h2>
-              <p className="fz-15 mt-10">If you would like to work with us or just want to get in touch, we’d love to hear from you!</p>
+              <h6 className="dot-titl-non mb-10 fz-18">
+              Entrer en contact</h6>
+              <h2 className="fz-50">Rendons votre marque brillante!</h2>
+              <p className="fz-15 mt-10">Découvrez comment nos services de développement d'applications mobiles peuvent dynamiser votre entreprise en nous contactant dès maintenant.</p>
               <div className="phone fz-30 fw-600 mt-30 underline">
-                <a href="#0">+1 840 841 25 69</a>
+                <a className='main-color2'href="tel:+33 7 53 69 58 40">+33 7 53 69 58 40</a>
               </div>
               <ul className="rest social-text d-flex mt-60">
-                <li className="mr-30">
-                  <a href="#0" className="hover-this"><span className="hover-anim">Facebook</span></a>
+              <li className="mr-30">
+                  <a target='_blank' href="https://www.tiktok.com/@pledgeandgrow">Tiktok</a>
                 </li>
                 <li className="mr-30">
-                  <a href="#0" className="hover-this"><span className="hover-anim">Twitter</span></a>
-                </li>
-                <li className="mr-30">
-                  <a href="#0" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
+                  <a target='_blank' href="https://www.linkedin.com/company/pledge-and-grow">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="#0" className="hover-this"><span className="hover-anim">Instagram</span></a>
+                  <a target='_blank' href="https://www.instagram.com/pledgeandgrow">Instagram</a>
                 </li>
               </ul>
             </div>
@@ -64,7 +62,7 @@ function Contact() {
                     </div>
                     <div className="mt-30">
                       <button type="submit" className="butn butn-full butn-bord radius-30">
-                        <span className="text">Let's Talk</span>
+                        <span className="text">Parlons!</span>
                       </button>
                     </div>
                   </div>

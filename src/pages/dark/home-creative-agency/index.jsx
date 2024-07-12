@@ -16,8 +16,9 @@ import Testimonials from '@/components/CreativeAgency/Testimonials';
 import Team from '@/components/CreativeAgency/Team';
 import HzScroll from '@/components/CreativeAgency/HorizontalScroll';
 import Blog from '@/components/CreativeAgency/Blog';
-import Footer from '@/components/CreativeAgency/Footer';
-
+// import Footer from '@/components/CreativeAgency/Footer';
+import Footer from '@/components/HomeMain/Footer';
+import Contact from "@/components/CreativeAgency/Contact";
 function HomeCreativeAgency() {
   useEffect(() => {
     document.body.classList.add('sub-bg');
@@ -26,7 +27,32 @@ function HomeCreativeAgency() {
 
   return (
     <>
+ <>
       <Head>
+        <title>Fledge & Grow - SAAS</title>
+      </Head >
+      <Loader />
+      <div id="smooth-wrapper">
+        <Navbar mainBg noStatic />
+        <div id="smooth-content">
+          <main className="position-re">
+           <div style={{marginTop: '80px'}}> <Header /></div>
+            {/* <Marq /> */}
+            <Services />
+            {/* <Intro /> */}
+            {/* <Portfolio />
+        <Skills /> */}
+            {/* <Testimonials />
+        <Blog /> */}
+            <Contact />
+          </main>
+          <Footer />
+        </div>
+      </div>
+    </>
+
+
+      {/* <Head>
         <title>Geekfolio - Creative Agency</title>
       </Head>
 
@@ -44,7 +70,7 @@ function HomeCreativeAgency() {
         <HzScroll />
         <Blog />
       </main>
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

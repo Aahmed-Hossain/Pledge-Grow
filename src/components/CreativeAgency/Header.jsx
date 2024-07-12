@@ -38,10 +38,10 @@ function Header({ lightMode }) {
                     stroke="currentColor" style={{ "--index": 6, "--transform": '180deg' }}></line>
                 </svg>
               </div>
-              <h4 className="fw-300 mb-15">Digital agency studio</h4>
+              <h4 className="fw-300 mb-15">Pledge and Grow</h4>
               <h1 className="fw-600 d-rotate wow">
-                <span className="rotate-text">a creative digital</span>
-                <span className="rotate-text">design studio</span>
+                <span className="rotate-text">Solutions</span>
+                <span className="rotate-text">SAAS</span>
               </h1>
             </div>
           </div>
@@ -60,7 +60,10 @@ function Header({ lightMode }) {
                         </path>
                       </defs>
                       <text>
-                        <textPath xlinkHref="#textcircle1" textLength="900">Creative - Agency - Winner -</textPath>
+                        <textPath xlinkHref="#textcircle1" textLength="900">
+                          Pledge - And - Grow -
+                          {/* Creative - Agency - Winner - */}
+                          </textPath>
                       </text>
                     </svg>
                   </div>
@@ -69,10 +72,10 @@ function Header({ lightMode }) {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <h6>500k <span className="fz-14">Customers</span></h6>
                 <p className="fz-13">Avg rating 4.8 makes us world best.</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

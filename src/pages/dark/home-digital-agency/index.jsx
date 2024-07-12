@@ -8,7 +8,6 @@ import Loader from '@/components/Common/Loader';
 import LinesTwo from '@/components/Common/LinesTwo';
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/DigitalAgency/Header';
-import Services from '@/components/DigitalAgency/Services';
 import Block from '@/components/DigitalAgency/Block';
 import Portfolio from '@/components/DigitalAgency/Portfolio';
 import Price from '@/components/DigitalAgency/Price';
@@ -18,7 +17,11 @@ import Testimonials from '@/components/DigitalAgency/Testimonials';
 import Approach from '@/components/DigitalAgency/Approach';
 import CallToAction from '@/components/DigitalAgency/CallToAction';
 import Blog from '@/components/DigitalAgency/Blog';
-import Footer from '@/components/DigitalAgency/Footer';
+import Footer from '@/components/HomeMain/Footer';
+import Contact from '@/components/DigitalAgency/Contact';
+import Services from '@/components/DigitalAgency/Services';
+// import Contact from "@/components/DigitalAgency/Contact";
+
 
 function HomeDigitalAgency() {
   useEffect(() => {
@@ -28,28 +31,54 @@ function HomeDigitalAgency() {
 
   return (
     <>
-      <Head>
-        <title>Geekfolio - Digital Agency</title>
-      </Head>
 
+      <Head>
+        <title>Fledge & Grow - Logiciel</title>
+      </Head >
       <Loader />
-      <LinesTwo />
-      <Navbar mainBg />
-      <Header />
-      <main className="position-re">
-        <Services />
-        <Block />
-        <Portfolio />
-        <Price />
-        <ServicesTab />
-        <Clients />
-        <Testimonials />
-        <Approach />
-        <CallToAction />
-        <Blog />
-      </main>
-      <Footer />
+      <div id="smooth-wrapper">
+        <Navbar mainBg noStatic />
+        <div id="smooth-content">
+          <main className="position-re">
+           <div style={{marginTop: '80px'}}> <Header /></div>
+            {/* <Marq /> */}
+            <Services/>
+            {/* <Intro /> */}
+            {/* <Portfolio />
+        <Skills /> */}
+            {/* <Testimonials />
+        <Blog /> */}
+
+            <Contact />
+
+          </main>
+          <Footer />
+        </div>
+      </div>
     </>
+    // <>
+    //   <Head>
+    //     <title>Geekfolio - Digital Agency</title>
+    //   </Head>
+
+    //   <Loader />
+    //   <LinesTwo />
+    //   <Navbar mainBg />
+    //   <Header />
+    //   <main className="position-re">
+    //     <Services />
+    //     <Block />
+    //     <Portfolio />
+    //     <Price />
+    //     <ServicesTab />
+    //     <Clients />
+    //     <Testimonials />
+    //     <Approach />
+    //     <CallToAction />
+    //     <Blog />
+    //   </main>
+    //   <Footer />
+    // </>
   )
 }
 

@@ -7,14 +7,14 @@ function Form() {
         <div className="row">
           <div className="col-lg-5">
             <div className="sec-lg-head mb-80">
-              <h6 className="dot-titl-non mb-10">
+              <h6 className="dot-titl-non mb-10 fz-14">
               ENTRER EN CONTACT</h6>
               <h2 className="fz-50">Entrons<br />contactez-nous.</h2>
               <p className="fz-15 mt-10">Si vous souhaitez travailler avec nous ou simplement entrer en contact, nous serions ravis d’avoir de vos nouvelles !
               </p>
               <div className="phone fz-30 fw-600 mt-30 ">
 
-              <a className='underline' href="tel:+33 7 53 69 58 40">+33 7 53 69 58 40</a>
+              <a className='underlined main-color2' href="tel:+33 7 53 69 58 40">+33 7 53 69 58 40</a>
 
               <a className='my-2'  href="mailto:contact@pledgeandgrow.com">contact@pledgeandgrow.com</a>
 
