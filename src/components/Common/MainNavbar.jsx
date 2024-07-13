@@ -147,7 +147,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-about`}>À propos de nous</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-services`}>Réalisation</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-team`}>Blog</Link>
-                {/* <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-contact`}>Contact Us</Link> */}
+                <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/home-architecture`}>Partenariats</Link>
               </div>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>

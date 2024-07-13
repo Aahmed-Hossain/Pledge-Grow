@@ -12,7 +12,7 @@ function Intro() {
             <div className="line"></div>
           </div>
           <div className="title">
-            <h6 className="sub-title">About Us.</h6>
+            <h6 className="sub-title">Partenaire P&G</h6>
           </div>
         </div>
         <div className="row">
@@ -23,11 +23,10 @@ function Intro() {
           </div>
           <div className="col-lg-5 valign">
             <div className="cont full-width md-mb50">
-              <h3 className="mb-15">Geekfolio <br /> Architects studio</h3>
-              <p>Through a unique combination of engineering, construction and design disciplines and
-                expertise, Concor delivers world class infrastructure.</p>
+              <h3 className="mb-15">Avantages du Partenariat Exclusif de 3 Ans</h3>
+              <p>Évaluation Complète de l'Infrastructure : Analyse approfondie de votre environnement informatique pour identifier les vulnérabilités et optimiser la sécurité.</p>
 
-              <div className="stauts d-flex align-items-center mt-40">
+              {/* <div className="stauts d-flex align-items-center mt-40">
                 <div>
                   <h4>20k</h4>
                   <p>Satisfied Clients</p>
@@ -36,7 +35,7 @@ function Intro() {
                   <h4>500+</h4>
                   <p>Projects Completed</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-4">

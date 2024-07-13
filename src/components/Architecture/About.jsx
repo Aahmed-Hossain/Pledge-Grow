@@ -29,34 +29,34 @@ function About() {
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="cont">
               <div className="text">
-                <h3>We create with passion architecture design that has great impact.</h3>
+                <h3>Réductions et Tarifs Avantageux.</h3>
               </div>
               <div className="accordion bord mt-40">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Building the Future Cities</h6>
+                    <h6 className="fz-18">15% de Réduction sur les Services </h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Profitez de tarifs réduits sur tous nos services.</p>
                   </div>
                 </div>
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Unique and Influential Design</h6>
+                    <h6 className="fz-18">20% de Réduction sur la Maintenance </h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Bénéficiez de tarifs avantageux pour l'entretien de vos systèmes.</p>
                   </div>
                 </div>
                 <div className="item wow fadeInUp" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Award-Winning Architecture</h6>
+                    <h6 className="fz-18">Partenariats pour Réductions sur Événements et Logiciels</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Accédez à des réductions exclusives sur des événements et des logiciels partenaires.</p>
                   </div>
                 </div>
               </div>
