@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dark/ia": [
+    "/dark/cyberSecurity": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dark/ia.js"
+      "static/chunks/pages/dark/cyberSecurity.js"
     ]
   },
   "ampFirstPages": []

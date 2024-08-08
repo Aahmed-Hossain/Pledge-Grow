@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/dark/ia": "pages/dark/ia.js"
+  "/dark/cyberSecurity": "pages/dark/cyberSecurity.js"
 }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper';
 //= Data
-import data from '@/data/OnePage/services.json';
+import data from '@/data/CyberSecurity/services.json';
 
 const swiperOptions = {
   modules: [Navigation, Autoplay],
@@ -47,13 +47,13 @@ function Services({ lightMode }) {
             <div className="col-lg-5">
               {/* <h6 className="sub-title opacity-8 wow fadeInUp">Main directions</h6> */}
               <h2 className="d-rotate wow">
-                <span className="rotate-text">Pourquoi nous choisir?</span>
+                <span className="rotate-text fz-40">Pourquoi Choisir Nos Services de Cybersécurité ?</span>
               </h2>
             </div>
             <div className="col-lg-4 d-flex align-items-center">
-              <div className="text d-rotate wow md-mb30">
+              {/* <div className="text d-rotate wow md-mb30">
                 <p className="rotate-text">Pourquoi Choisir Nos Services de Développement d'Applications Mobiles?</p>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-3 d-flex align-items-center wow fadeIn">
               <div className="full-width">

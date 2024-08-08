@@ -7,20 +7,20 @@ function About() {
         <div className="row md-marg">
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
-              <h6 className="sub-title opacity-8 wow fadeInUp">Application Mobile.</h6>
+              <h6 className="sub-title opacity-8 wow fadeInUp">Chez Pledge and Grow </h6>
               <h2 className="d-slideup wow">
                 <span className="sideup-text">
-                  <span className="up-text">Pledge and Grow<span className="sub-font">full–service</span></span>
+                  <span className="up-text">nous comprenons que la cybersécurité<span className="sub-font">est essentielle pour</span></span>
                 </span>
                 <span className="sideup-text">
-                  <span className="up-text">creative studio</span>
+                  <span className="up-text">protéger vos applications</span>
                 </span>
                 <span className="sideup-text">
-                  <span className="up-text">revolutionize Application Mobile.</span>
+                  <span className="up-text">et logiciels contre les cyberattaques.</span>
                 </span>
               </h2>
               <div className="text mt-20 wow fadeIn" data-wow-delay=".5s">
-                <p>Chez Pledge and Grow, nous sommes spécialisés dans le développement d'applications mobiles innovantes et performantes. Que vous ayez besoin d'une application native, hybride ou cross-platform, nous avons l'expertise nécessaire pour transformer vos idées en applications mobiles de haute qualité.</p>
+                <p>Notre service d'intégration de cybersécurité est conçu pour réduire les risques et garantir la sécurité de vos systèmes informatiques.</p>
               </div>
               {/* <div className="stutas pt-40 mt-40 bord-thin-top">
                 <div className="row">

@@ -10,23 +10,21 @@ function Marq() {
               <div className="slide-har st1 non-strok">
                 <div className="box">
                   <div className="item">
-                    <h4>Solutions <span className="stroke opacity-4">sur Mesure </span></h4>
+                    <h4> Protection <span className="stroke opacity-4">Renforcée</span></h4>
                   </div>
                   <div className="item">
-                    <h4>Approche   <span className="stroke opacity-4">Agile et Structurée</span></h4>
+                    <h4>Solutions <span className="stroke opacity-4">Complètes</span></h4>
                   </div>
                   <div className="item">
-                    <h4>Performance e  <span className="stroke opacity-4">et Qualité</span></h4>
+                    <h4>Conformité<span className="stroke opacity-4"> et Réglementation</span></h4>
                   </div>
                   <div className="item">
-                    <h4>Support <span className="stroke opacity-4">et Maintenance</span></h4>
+                    <h4>Réduction <span className="stroke opac des Risquesity-4"></span></h4>
                   </div>
                   <div className="item">
-                    <h4>Conformité  <span className="stroke opacity-4">et Sécurité</span></h4>
+                    <h4>Support <span className="stroke opacity-4">et Formation</span></h4>
                   </div>
-                  <div className="item">
-                    <h4>Expérience <span className="stroke opacity-4">Utilisateur (UX) </span></h4>
-                  </div>
+                 
                 </div>
                 {/* <div className="box">
                   <div className="item">

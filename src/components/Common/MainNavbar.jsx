@@ -114,7 +114,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                         <div className="links">
                           <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / IX Design</Link>
                           <Link className="dropdown-item" href="/dark/showcase-frame-slider">Référencement</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-circle-slider">Cybersécurité</Link>
+                          <Link className="dropdown-item" href="/dark/cyberSecurity">Cybersécurité</Link>
                           <Link className="dropdown-item" href="/dark/home-maintenance">Maintenance</Link>
                           {/* <Link className="dropdown-item" href="/dark/showcase-interactive-center-horizontal">Interactive Links1</Link>
                           <Link className="dropdown-item" href="/dark/showcase-interactive-center">Interactive Links2</Link>
