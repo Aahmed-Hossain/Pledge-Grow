@@ -76,10 +76,10 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                         </div>
                         <div className="links">
                           {/* <Link className="dropdown-item" href="#">Main Home</Link> */}
-                          <Link className="dropdown-item" href="/dark/home-corporate">Site Web </Link>
+                          <Link className="dropdown-item" href="/dark/home-corporate">Site Web</Link>
                           <Link className="dropdown-item" href="/dark/home-creative-agency">SAAS </Link>
                           <Link className="dropdown-item" href="/dark/home-digital-agency">Logiciels</Link>
-                          <Link className="dropdown-item" href="/dark/home-freelancer">Application Mobile</Link>
+                          <Link className="dropdown-item" href="/dark/home-freelancer">Application web</Link>
                           {/* <Link className="dropdown-item" href="/dark/home-marketing-agency">Marketing Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-creative-agency">Creative Agency</Link>
                           <Link className="dropdown-item" href="/dark/home-startup">Startup Bussines</Link>
@@ -93,7 +93,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           <h6 className="sub-title ls1">Intégrations </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/light/home-main">E-commerce</Link>
+                          <Link className="dropdown-item" href="/dark/home-onepage">Application mobile</Link>
                           <Link className="dropdown-item" href="/light/home-corporate">IA / Machine Learning</Link>
                           <Link className="dropdown-item" href="/light/home-onepage">Blockchain</Link>
                           {/* <Link className="dropdown-item" href="/light/home-digital-agency">Digital Agency</Link>
@@ -114,7 +114,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / IX Design</Link>
                           <Link className="dropdown-item" href="/dark/showcase-frame-slider">Référencement</Link>
                           <Link className="dropdown-item" href="/dark/showcase-circle-slider">Cybersécurité</Link>
-                          <Link className="dropdown-item" href="/dark/showcase-carousel">Maintenance</Link>
+                          <Link className="dropdown-item" href="/dark/home-maintenance">Maintenance</Link>
                           {/* <Link className="dropdown-item" href="/dark/showcase-interactive-center-horizontal">Interactive Links1</Link>
                           <Link className="dropdown-item" href="/dark/showcase-interactive-center">Interactive Links2</Link>
                           <Link className="dropdown-item" href="/dark/showcase-parallax">Vertical Parallax</Link> */}
@@ -146,7 +146,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
               <div className="dropdown-menu">
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-about`}>À propos de nous</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-services`}>Réalisation</Link>
-                <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-team`}>Blog</Link>
+                <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/portfolio-masonry-3/`}>Blog</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/home-architecture`}>Partenariats</Link>
               </div>
             </li>

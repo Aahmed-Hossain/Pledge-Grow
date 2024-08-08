@@ -13,7 +13,7 @@ function Masonry() {
   return (
     <section className="portfolio section-padding pb-40">
       <div className="container-xxl">
-        <div className="row">
+        {/* <div className="row">
           <div className="filtering col-12 mb-80 text-center">
             <div className="filter">
               <span className="text">Filter By :</span>
@@ -24,14 +24,14 @@ function Masonry() {
               }
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="gallery">
           <div className="row masonry md-marg">
             {
-              data.gallery.map((item) => (
-                <div className={`col-lg-4 col-md-6 items ${item.filter} info-overlay mb-50`} key={item.id}>
+              data?.gallery?.map((item) => (
+                <div className={`col-lg-4 col-md-6 items ${item?.filter} info-overlay mb-50`} key={item.id}>
                   <div className="item-img o-hidden">
-                    <Link href="/dark/project-details1" className="imago wow">
+                    <Link target='_blank' href={item.link} className="imago wow">
                       <div className="inner wow">
                         <img src={item.image} alt="image" />
                       </div>

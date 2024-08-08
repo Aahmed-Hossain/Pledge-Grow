@@ -13,14 +13,14 @@ function Header() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="caption">
-              <div className="sub-title fz-12">
-                <a href="#0"><span>Marketing</span></a>
-                <span> , </span>
-                <a href="#0"><span>Design</span></a>
+              <div className="sub-title fz-24">
+                <a><span>Aides &  Subventions</span></a>
+                <span>  </span>
+                <a ><span>  </span></a>
               </div>
-              <h1 className="fz-55 mt-30">Network of wormholes colonies extraordinary claims require.</h1>
+              <h1 className="fz-55 mt-30">Vous cherchez des moyens de financer vos projets informatiques ? Découvrez les différentes alternatives et options de financement ainsi que les aides de l'État disponibles pour soutenir vos initiatives technologiques.</h1>
             </div>
-            <div className="info d-flex mt-40 align-items-center">
+            {/* <div className="info d-flex mt-40 align-items-center">
               <div className="left-info">
                 <div className="d-flex">
                   <div className="author-info">
@@ -48,7 +48,7 @@ function Header() {
                   <span className="opacity-7">02 Comments</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

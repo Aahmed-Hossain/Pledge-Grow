@@ -17,7 +17,8 @@ import Testimonials from '@/components/Corporate/Testimonials';
 import Block from '@/components/Corporate/Block';
 import Pricing from '@/components/Corporate/Pricing';
 import Blog from '@/components/Corporate/Blog';
-import Footer from '@/components/Corporate/Footer';
+import Contact from '@/components/Corporate/Contact';
+import Footer from '@/components/HomeMain/Footer';
 
 function HomeCorporate() {
   useEffect(() => {
@@ -28,16 +29,20 @@ function HomeCorporate() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Corporate</title>
+        <title>Pledge and Grow - Site Web</title>
       </Head>
 
       <Loader />
-      <LinesTwo />
+
+      {/* original */}
+
+
+      {/* <LinesTwo />
       <Navbar />
       <main className="main-bg">
         <Header />
         <Services />
-        <About />
+      <About />  
         <Marq />
         <Portfolio />
         <Numbers />
@@ -46,7 +51,24 @@ function HomeCorporate() {
         <Pricing />
         <Blog />
       </main>
-      <Footer />
+      <Footer /> */}
+         <div id="smooth-wrapper">
+        <Navbar mainBg noStatic />
+        <div id="smooth-content">
+          <main className="position-re">
+           <div style={{marginTop: '80px'}}> <Header /></div>
+            {/* <Marq /> */}
+            <Services />
+            {/* <Intro /> */}
+            {/* <Portfolio />
+        <Skills /> */}
+            {/* <Testimonials />
+        <Blog /> */}
+               <About />  
+          </main>
+          <Footer />
+        </div>
+      </div>
     </>
   )
 }

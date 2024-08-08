@@ -25,7 +25,7 @@ function PortfolioClassicGrid3() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Portfolio Classic Grid 3 Col</title>
+        <title>Pledge and Grow - Blog</title>
       </Head>
 
       <Loader />
