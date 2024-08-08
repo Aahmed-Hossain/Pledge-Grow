@@ -7,7 +7,7 @@ function Comments() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="text mb-60">
-              <h3>Comments</h3>
+              <h3>Aids & Subsidies</h3>
             </div>
           </div>
         </div>

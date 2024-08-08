@@ -94,9 +94,10 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                         </div>
                         <div className="links">
                           <Link className="dropdown-item" href="/dark/home-onepage">Application mobile</Link>
-                          <Link className="dropdown-item" href="/light/home-corporate">IA / Machine Learning</Link>
+                          <Link className="dropdown-item" href="/dark/ia">IA</Link>
                           <Link className="dropdown-item" href="/light/home-onepage">Blockchain</Link>
-                          {/* <Link className="dropdown-item" href="/light/home-digital-agency">Digital Agency</Link>
+                          <Link className="dropdown-item" href="/dark/blog-details/">Aids & Subsidies</Link>
+                           {/*
                           <Link className="dropdown-item" href="/light/home-freelancer">Freelancer</Link>
                           <Link className="dropdown-item" href="/light/home-marketing-agency">Marketing Agency</Link>
                           <Link className="dropdown-item" href="/light/home-creative-agency">Creative Agency</Link>

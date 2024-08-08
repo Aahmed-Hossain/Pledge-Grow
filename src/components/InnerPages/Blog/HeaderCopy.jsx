@@ -18,7 +18,7 @@ function HeaderCopy() {
                 <span>  </span>
                 <a ><span>  </span></a>
               </div>
-              <h1 className="fz-40 mt-30">Vous cherchez des moyens de financer vos projets informatiques ? Découvrez les différentes alternatives et options de financement ainsi que les aides de l'État disponibles pour soutenir vos initiatives technologiques.</h1>
+              <h1 className="fz-40 mt-30 sub-font">Vous cherchez des moyens de financer vos projets informatiques ? Découvrez les différentes alternatives et options de financement ainsi que les aides de l'État disponibles pour soutenir vos initiatives technologiques.</h1>
             </div>
             {/* <div className="info d-flex mt-40 align-items-center">
               <div className="left-info">
