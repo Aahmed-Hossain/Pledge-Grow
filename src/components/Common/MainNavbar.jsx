@@ -112,7 +112,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           <h6 className="sub-title ls1">Complémentaires </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / UI Design</Link>
+                          
                           <Link className="dropdown-item" href="/dark/showcase-frame-slider">Référencement</Link>
                           <Link className="dropdown-item" href="/dark/cyberSecurity">Cybersécurité</Link>
                           <Link className="dropdown-item" href="/dark/home-maintenance">Maintenance</Link>
@@ -122,22 +122,24 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="col-lg-3">
+
+                    {/* 4th */}
+                    <div className="col-lg-3">
                       <div className="clumn">
                         <div className="title">
-                          <h6 className="sub-title ls1">Showcases Light</h6>
+                          <h6 className="sub-title ls1"> 
+                          POLITIQUES
+                          </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/light/showcase-parallax-slider">Parallax Slider</Link>
-                          <Link className="dropdown-item" href="/light/showcase-carousel">Showcase Carousel</Link>
-                          <Link className="dropdown-item" href="/light/showcase-frame-slider">Frame Slider</Link>
-                          <Link className="dropdown-item" href="/light/showcase-circle-slider">Circle Slider</Link>
-                          <Link className="dropdown-item" href="/light/showcase-interactive-center-horizontal">Interactive Links1</Link>
-                          <Link className="dropdown-item" href="/light/showcase-interactive-center">Interactive Links2</Link>
-                          <Link className="dropdown-item" href="/light/showcase-parallax">Vertical Parallax</Link>
+                          <Link className="dropdown-item" href="/dark/presse">Presse</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-carousel">Mentions legales</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-frame-slider">Conditions Générales</Link>
+                        
+                       
                         </div>
                       </div>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -152,6 +154,8 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/career/`}>Career</Link>
 
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/home-architecture`}>Partenariats</Link>
+
+                <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/project`}>Projects</Link>
               </div>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
