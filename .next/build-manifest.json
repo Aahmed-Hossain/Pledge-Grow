@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dark/career": [
+    "/dark/project": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dark/career.js"
+      "static/chunks/pages/dark/project.js"
     ]
   },
   "ampFirstPages": []
