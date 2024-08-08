@@ -112,7 +112,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                           <h6 className="sub-title ls1">Complémentaires </h6>
                         </div>
                         <div className="links">
-                          <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / IX Design</Link>
+                          <Link className="dropdown-item" href="/dark/showcase-parallax-slider">UX / UI Design</Link>
                           <Link className="dropdown-item" href="/dark/showcase-frame-slider">Référencement</Link>
                           <Link className="dropdown-item" href="/dark/cyberSecurity">Cybersécurité</Link>
                           <Link className="dropdown-item" href="/dark/home-maintenance">Maintenance</Link>
@@ -148,6 +148,9 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-about`}>À propos de nous</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/page-services`}>Réalisation</Link>
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/portfolio-masonry-3/`}>Blog</Link>
+
+                <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/career/`}>Career</Link>
+
                 <Link className="dropdown-item" href={`/${lightMode ? 'light' : 'dark'}/home-architecture`}>Partenariats</Link>
               </div>
             </li>
